@@ -116,25 +116,23 @@
 <body>
     <div class="container">
         <h1 class="title">Convite para um Jantar Especial 🍽️</h1>
-        <p>Oi <span class="highlight">[NOME DELA]</span>,</p>
+        <p>Oi <span class="highlight">Isabelle</span>,</p>
         <p>Gostaria de te convidar para um jantar especial comigo. Que tal? 🥰</p>
 
-        <button class="collapsible">Por que você deveria aceitar?</button>
+        <button class="collapsible">Vantagens de você aceitar!</button>
         <div class="content">
             <ul>
-                <li>Vai ser uma noite cheia de boas conversas e risadas. 😄</li>
-                <li>Eu prometo escolher um restaurante incrível! 🌟</li>
-                <li>Um jantar é perfeito para criarmos boas memórias. ✨</li>
-                <li>Você merece um momento especial! 💖</li>
+                <li>Jantar grátis. 😄</li>
+                <li>Pelo menos 3 risadas garantidas 🌟</li>
+                <li>Com certeza vamos falar mal de alguém. ✨</li>
+                <li>Também sou fã de Android. 💖</li>
             </ul>
         </div>
 
-        <button class="collapsible">E se você não aceitar? 🥺</button>
+        <button class="collapsible">Desvantagens de você aceitar! 🥺</button>
         <div class="content">
             <ul>
-                <li>Eu vou ficar muito triste. 😢</li>
-                <li>Você vai perder uma noite incrível. 💔</li>
-                <li>Não vou desistir de te convidar de novo. 😜</li>
+                <li>Simplesmente não tem, não entendi pq clicou aqui. ;/</li>
             </ul>
         </div>
 
@@ -145,6 +143,7 @@
 
         <div class="calendar-selector">
             <label for="date">Escolha a data do jantar:</label>
+            <p>Obs: Não vou poder dias 8, 10 e 11 de dezembro. 🥺</p>
             <input type="date" id="date" required>
             <button onclick="sendEmail()">Confirmar</button>
         </div>
@@ -173,8 +172,8 @@
         });
 
         noButton.addEventListener("click", () => {
-            if (confirm("Tem certeza? 😢")) {
-                if (confirm("Tem mesmo certeza? 😭")) {
+            if (confirm("Opa, acho que clicou no botão errado, né? 😢")) {
+                if (confirm("Tem certeza que não foi o botão errado? 😭")) {
                     if (confirm("Certeza absoluta? 😔")) {
                         alert("Então me manda um pix de 500 reais 😢");
                     }
@@ -194,3 +193,4 @@
     </script>
 </body>
 </html>
+
